@@ -1,0 +1,17 @@
+name: FlyPlugin
+main: org.jhonnyby.flyPlugin.FlyPlugin
+version: 1.0
+author: Jhonnyby
+description: Ein Plugin, das es Spielern erlaubt, das Fliegen ein- und auszuschalten
+
+commands:
+  fly:
+    description: Schaltet das Fliegen ein oder aus und lädt die Konfiguration neu
+    usage: /<command> [reload]
+permissions:
+  flyplugin.fly:
+    description: Erlaubt es einem Spieler zu fliegen
+    default: op
+  flyplugin.admin.reload:
+    description: Erlaubt das Neuladen der Plugin-Konfiguration
+    default: op

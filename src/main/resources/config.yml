@@ -1,0 +1,8 @@
+prefix: "§3§lFlyPlugin §r>> "
+messages:
+  enable: "FlyPlugin aktiviert!"
+  disable: "FlyPlugin deaktiviert!"
+  flightEnabled: "Fliegen aktiviert!"
+  flightDisabled: "Fliegen deaktiviert!"
+  noPermission: "Du hast keine Berechtigung, um diesen Befehl zu verwenden."
+  noPermissionFlight: "Du hast keine Berechtigung zum Fliegen."
